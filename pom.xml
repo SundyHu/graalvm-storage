@@ -62,7 +62,7 @@
                             -H:ResourceConfigurationResources=src/main/resources/META-INF/native-image/resource-config.json
                         </buildArg>
                         <buildArg>
-                            -H:ReflectConfigurationResources=src/main/resources/META-INF/native-image/reflect-config.json
+                            -H:ReflectionConfigurationResources=src/main/resources/META-INF/native-image/reflect-config.json
                         </buildArg>
                     </buildArgs>
                 </configuration>
