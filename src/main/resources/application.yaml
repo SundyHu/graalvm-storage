@@ -1,0 +1,13 @@
+server:
+  port: 9000
+spring:
+  application:
+    name: graalvm-storage
+  jpa:
+    generate-ddl: true
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        format_sql: true
