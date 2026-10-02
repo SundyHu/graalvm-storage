@@ -10,7 +10,7 @@ on:
       - master
 jobs:
   build-native:
-    name: 'Build GraalVM Native Image ${{ matrix.platform}}
+    name: 'Build GraalVM Native Image ${{ matrix.platform}}'
     strategy:
       matrix:
         os: [ ubuntu-latest ]
