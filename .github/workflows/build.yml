@@ -11,6 +11,8 @@ on:
 jobs:
   build-native:
     name: 'Build GraalVM Native Image ${{ matrix.platform}}'
+    env:
+      SPRING_OUTPUT_ANSI_ENABLED: DETECT
     strategy:
       matrix:
         os: [ ubuntu-latest ]
