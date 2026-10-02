@@ -46,3 +46,4 @@ jobs:
         run: |
           mvn -Pnative package
           ls ./target
+          ./graalvm-storage
