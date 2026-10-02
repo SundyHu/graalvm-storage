@@ -13,7 +13,7 @@ public class AppConfig {
     @Bean
     public DataSource dataSource() {
         EmbeddedDatabaseBuilder databaseBuilder = new EmbeddedDatabaseBuilder();
-        databaseBuilder.setType(EmbeddedDatabaseType.H2).generateUniqueName(true);
+        databaseBuilder.setType(EmbeddedDatabaseType.HSQL).generateUniqueName(true);
         return databaseBuilder.build();
     }
 }
