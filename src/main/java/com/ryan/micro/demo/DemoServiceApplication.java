@@ -22,6 +22,7 @@ public class DemoServiceApplication {
 
                 Author author = new Author();
                 author.setName("Ricky.Lee");
+                author.setUserId(10000);
                 Author origin = authorRepository.save(author);
                 System.out.println(">>>>> " + origin);
                 System.exit(0);
